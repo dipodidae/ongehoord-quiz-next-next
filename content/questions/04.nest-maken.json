@@ -1,0 +1,12 @@
+{
+  "image": "mudbath.jpg",
+  "title": "Een nest maken",
+  "question": "Hoe ver kan een moedervarken rondtrekken voor een geschikte plek voor een nest?",
+  "answers": [
+    { "key": "a", "text": "Een kilometer" },
+    { "key": "b", "text": "Tien kilometer" },
+    { "key": "c", "text": "Vijftig kilometer" }
+  ],
+  "correctAnswer": "b",
+  "feedback": "Zeugen zijn zorgzame moeders met een diepe affectie voor hun biggen. In de natuur zal een zeug voordat ze gaat bevallen, een groot nest bouwen om haar biggen te beschermen. Daarbij let ze op de kwaliteit van het nest en de locatie."
+}

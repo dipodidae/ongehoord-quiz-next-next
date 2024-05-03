@@ -1,0 +1,12 @@
+{
+  "image": "mudbath.jpg",
+  "title": "Sociale groepen",
+  "question": "Hoe begroeten varkens elkaar?",
+  "answers": [
+    { "key": "a", "text": "Ze klikken met hun hoeven" },
+    { "key": "b", "text": "Ze wrijven met hun neuzen" },
+    { "key": "c", "text": "Ze gillen naar elkaar" }
+  ],
+  "correctAnswer": "b",
+  "feedback": "Varkens werken veel samen en ze tonen affectie door elkaar te verzorgen. Net als mensen en veel andere dieren, hebben varkens sociale groepen en zijn ze in staat het gedrag van andere groepsleden te evalueren, om zo te begrijpen wie in hun groep dominant is."
+}
