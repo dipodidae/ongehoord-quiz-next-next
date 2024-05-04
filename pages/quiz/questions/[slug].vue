@@ -14,7 +14,7 @@ watch(isCorrect, (value) => {
 <template>
   <div>
     <header>{{ question.question }}</header>
-    <quiz-question-feedback v-if="answerKey" :correct="isCorrect" />
+    <quiz-question-feedback v-if="answerKey" />
     <quiz-question-answers v-else />
   </div>
 </template>
