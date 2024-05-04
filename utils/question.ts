@@ -1,7 +1,7 @@
 export function convertSlugToPath(slug: string): string {
-  return `/question/${slug}`
+  return `/questions/${slug}`
 }
 
 export function convertPathToSlug(_path: string): string {
-  return _path.replace('/question/', '')
+  return _path.replace('/questions/', '')
 }

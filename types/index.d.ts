@@ -16,7 +16,7 @@ declare global {
     title: string
     question: string
     answers: QuizAnswer[]
-    correctAnswer: QuizAnswerKey
+    correctAnswerKey: QuizAnswerKey
     feedback: string
   }
 }

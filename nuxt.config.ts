@@ -72,4 +72,8 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+
+  content: {
+    documentDriven: true,
+  },
 })

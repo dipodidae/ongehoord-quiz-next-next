@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { score } = useQuizStore()
+const { score } = useQuizStore() ?? { score: 0 }
 </script>
 
 <template>

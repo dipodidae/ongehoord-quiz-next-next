@@ -1,22 +1,5 @@
 <script setup lang="ts">
-import { useQuestionStore } from '~/store/question'
-
 useProvideQuizStore()
-
-const { questions } = useQuestionStore()
-
-function navigateToFirstQuestion() {
-  navigateTo(`/quiz/${convertPathToSlug(questions[0]._path!)}`)
-}
-
-watch(() => questions, () => {
-  if (!questions.length)
-    return
-
-  navigateToFirstQuestion()
-}, {
-  immediate: true,
-})
 </script>
 
 <template>
