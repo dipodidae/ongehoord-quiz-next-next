@@ -11,7 +11,7 @@ function onClick() {
 </script>
 
 <template>
-  <UButton @click="onClick">
+  <a block href="#" class="flex rounded-sm px-10 py-2" @click="onClick">
     {{ props.answer.text }}
-  </UButton>
+  </a>
 </template>

@@ -5,30 +5,30 @@ const isDone = computed(() => nextQuestion.value._dir !== question.value._dir)
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col gap-8 items-center justify-center">
     <QuizQuestionFeedbackStatus v-if="isCorrect">
       Correct!
     </QuizQuestionFeedbackStatus>
     <QuizQuestionFeedbackStatus v-else class="bg-red-300 text-red-900">
       Incorrect!
     </QuizQuestionFeedbackStatus>
-    <div v-if="!isCorrect && userAnswer">
-      Your Answer: {{ userAnswer.text }}
+    <div v-if="!isCorrect && userAnswer" class="text-red-200 text-xl">
+      Jouw antwoord: {{ userAnswer.text }}
     </div>
-    <div v-if="correctAnswer">
-      Correct answer: {{ correctAnswer.text }}
+    <div v-if="correctAnswer" class="text-green-300 text-xl">
+      Goeie antwoord: {{ correctAnswer.text }}
     </div>
-    <div>
+    <div class="text-xl">
       {{ question.feedback }}
     </div>
     <div v-if="isDone">
       <UButton to="/quiz/score">
-        View score!
+        Bekijk je score
       </UButton>
     </div>
     <div v-else>
       <UButton :to="nextQuestion._path">
-        Next Question
+        Volgende vraag
       </UButton>
     </div>
   </div>

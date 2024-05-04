@@ -18,5 +18,6 @@ declare global {
     answers: QuizAnswer[]
     correctAnswerKey: QuizAnswerKey
     feedback: string
+    youtubeVideoId?: string
   }
 }
