@@ -1,0 +1,12 @@
+{
+  "image": "mudbath.jpg",
+  "title": "Geheugen",
+  "question": "Net als honden, kunnen varkens hun naam onthouden. Als ze een naam krijgen, reageren ze al op die naam binnen",
+  "answers": [
+    { "key": "a", "text": "De eerste week na hun geboorte" },
+    { "key": "b", "text": "Tien dagen na de geboorte" },
+    { "key": "c", "text": "De eerste maand na de geboorte" }
+  ],
+  "correctAnswerKey": "a",
+  "feedback": "Varkens hebben een goed geheugen. Ze kunnen tot wel dertig varkens herkennen en onthouden. Wist je dat varkens ook een goed richtingsgevoel hebben en de ze de weg vinden over grote afstand?"
+}
