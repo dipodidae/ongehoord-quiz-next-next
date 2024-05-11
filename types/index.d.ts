@@ -20,4 +20,17 @@ declare global {
     feedback: string
     youtubeVideoId?: string
   }
+
+  type QuizButtonColor = 'red' | 'green' | 'blue'
+
+  interface QuizButton {
+    color: QuizButtonColor
+    quizAnswerKey: QuizAnswerKey
+    eventCodes: number[]
+  }
+}
+
+declare module 'constants/buttons.json' {
+  const buttons: QuizButton[]
+  export default buttons
 }

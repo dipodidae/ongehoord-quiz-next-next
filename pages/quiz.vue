@@ -2,6 +2,8 @@
 useProvideQuizStore()
 
 const route = useRoute()
+
+useQuizButtons()
 </script>
 
 <template>

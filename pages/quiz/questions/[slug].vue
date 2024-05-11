@@ -18,8 +18,7 @@ watch(isCorrect, (value) => {
         {{ question.question }}
       </h1>
     </header>
-    <video-youtube v-if="question.youtubeVideoId" :video-id="question.youtubeVideoId" />
     <quiz-question-feedback v-if="answerKey" />
-    <quiz-question-answers v-else />
+    <quiz-question-content v-else />
   </div>
 </template>

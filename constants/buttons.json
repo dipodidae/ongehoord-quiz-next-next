@@ -1,0 +1,17 @@
+[
+  {
+    "color": "red",
+    "quizAnswerKey": "a",
+    "eventCodes": [79, 103, 69]
+  },
+  {
+    "color": "green",
+    "quizAnswerKey": "b",
+    "eventCodes": [84, 49, 77]
+  },
+  {
+    "color": "blue",
+    "quizAnswerKey": "c",
+    "eventCodes": [70, 52, 51]
+  }
+]

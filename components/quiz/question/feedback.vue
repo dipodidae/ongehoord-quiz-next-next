@@ -22,14 +22,14 @@ const isDone = computed(() => nextQuestion.value._dir !== question.value._dir)
       {{ question.feedback }}
     </div>
     <div v-if="isDone">
-      <UButton to="/quiz/score">
+      <quiz-keyboard-triggerable-button to="/quiz/score">
         Bekijk je score
-      </UButton>
+      </quiz-keyboard-triggerable-button>
     </div>
     <div v-else>
-      <UButton :to="nextQuestion._path">
+      <quiz-keyboard-triggerable-button :to="nextQuestion._path">
         Volgende vraag
-      </UButton>
+      </quiz-keyboard-triggerable-button>
     </div>
   </div>
 </template>
